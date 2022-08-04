@@ -13,9 +13,11 @@
       <text outputFile="build/coverage.txt"/>
     </report>
   </coverage>
-  <testsuite name="app1">
-    <directory>./test</directory>
-  </testsuite>
+	<testsuites>
+		<testsuite name="ControlTests">
+			<directory>./test/Control</directory>
+		</testsuite>
+	</testsuites>
   <logging>
     <junit outputFile="build/report.junit.xml"/>
   </logging>
