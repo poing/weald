@@ -1,0 +1,38 @@
+{
+    "name": "poing/weald",
+    "type": "project",
+    "require": {
+    	"php": "^8.0.2",
+        "illuminate/database": "^9.22",
+        "illuminate/console": "^9.0",
+        "illuminate/events": "^9.0",
+        "illuminate/filesystem": "^9.0",
+        "illuminate/pagination": "^9.0",
+        "symfony/finder": "^6.0.11",
+        "doctrine/dbal": "^2.13.7|^3.3.5"
+    },
+    "require-dev": {
+        "fakerphp/faker": "^1.18",
+        "orchestra/testbench": "^7.4",
+        "php-coveralls/php-coveralls": "^2.5",
+        "phpunit/phpunit":"^9.5.19"
+    },
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "Poing\\Weald\\": "src/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Poing\\Weald\\": "test/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Brian LaVallee",
+            "email": "brian.lavallee@invite-comm.jp"
+        }
+    ],
+    "minimum-stability": "stable"
+}
