@@ -25,7 +25,7 @@
     },
     "autoload-dev": {
         "psr-4": {
-            "Poing\\Weald\\": "test/"
+            "Weald\\Test\\": "test/"
         }
     },
     "authors": [
