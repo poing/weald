@@ -20,10 +20,10 @@ class ControlTest extends TestCase
     {
         $this->assertTrue($this->stub());
     }
-    
+
     /** @test */
     public function hello_world()
     {
-    	$this->assertTrue((Control::hello() == "world"));
+        $this->assertTrue((Control::hello() == 'world'));
     }
 }

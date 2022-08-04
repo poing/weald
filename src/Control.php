@@ -4,8 +4,8 @@ namespace Poing\Weald;
 
 class Control
 {
-
-	static public function hello() {
-		return "world";
-	}
+    public static function hello()
+    {
+        return 'world';
+    }
 }
