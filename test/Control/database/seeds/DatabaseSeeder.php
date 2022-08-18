@@ -14,7 +14,7 @@ class GeneralSeeder extends Seeder
      */
     public function run()
     {
-		BaseLineAlphaSeeder::class
+		BaseLineAlphaSeeder::class;
     }
 }
 
