@@ -3,6 +3,8 @@
 namespace Weald\Test\Control;
 
 use Orchestra\Testbench\TestCase;
+use Database\Seeders\DatabaseSeeder;
+
 
 class UnitAbstract extends TestCase
 {
@@ -15,6 +17,7 @@ class UnitAbstract extends TestCase
         $this->loadMigrationsFrom(__DIR__.'/database/migrations');
         //$this->withFactories(__DIR__.'/database/factories');
         $this->artisan('migrate');
+        $this->artisan('db:seed', ['--class' => DatabaseSeeder::class]);
     }
 
     /**
