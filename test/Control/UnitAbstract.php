@@ -21,7 +21,6 @@ class UnitAbstract extends TestCase
      * Define environment setup.
      *
      * @param  \Illuminate\Foundation\Application  $app
-     *
      * @return void
      */
     protected function getEnvironmentSetUp($app)
@@ -44,7 +43,6 @@ class UnitAbstract extends TestCase
      * 'providers' array in the config/app.php file.
      *
      * @param  \Illuminate\Foundation\Application  $app
-     *
      * @return array
      */
     protected function getPackageProviders($app)

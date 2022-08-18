@@ -3,7 +3,6 @@
 namespace Database\Factories;
 
 use Illuminate\Database\Eloquent\Factories\Factory;
-use Illuminate\Support\Str;
 use Weald\Test\Control\Models\BaseLineAlpha;
 
 /**
@@ -11,15 +10,13 @@ use Weald\Test\Control\Models\BaseLineAlpha;
  */
 class BaseLineAlphaFactory extends Factory
 {
-
     /**
      * The name of the factory's corresponding model.
      *
      * @var string
      */
     protected $model = BaseLineAlpha::class;
- 
- 
+
     /**
      * Define the model's default state.
      *

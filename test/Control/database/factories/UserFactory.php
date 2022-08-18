@@ -17,15 +17,15 @@ class UserFactory extends Factory
     public function definition()
     {
         return [
-			'name' => fake()->name,
-			'email' => fake()->unique()->safeEmail,
-			'password' => $password ?: $password = bcrypt('secret'),
-			'remember_token' => str_random(10),        ];
+            'name' => fake()->name,
+            'email' => fake()->unique()->safeEmail,
+            'password' => $password ?: $password = bcrypt('secret'),
+            'remember_token' => str_random(10),        ];
     }
-    
-// 	$factory->define(App\User::class, function (Faker $faker) {
+
+    // 	$factory->define(App\User::class, function (Faker $faker) {
 // 		static $password;
-// 
+//
 // 		return [
 // 			'name' => $faker->name,
 // 			'email' => $faker->unique()->safeEmail,
@@ -34,7 +34,4 @@ class UserFactory extends Factory
 // 		];
 // 	});
 //	General::factory()->make(['foo' => 'bar']);
-
-    
 }
-
