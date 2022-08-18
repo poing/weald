@@ -6,13 +6,11 @@ use Weald\Test\Control\Models\BaseLineAlpha;
 
 class EloquentTest extends UnitAbstract
 {
-
     /** @test */
     public function record_seed_test()
     {
         $this->assertEquals(BaseLineAlpha::count(), 50);
     }
-
 
     /** @test */
     public function record_insert_test()
