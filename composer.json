@@ -25,7 +25,9 @@
     },
     "autoload-dev": {
         "psr-4": {
-            "Weald\\Test\\": "test/"
+            "Weald\\Test\\": "test/",
+            "Database\\Factories\\": "test/Control/database/factories/",
+            "Database\\Seeders\\": "test/Control/database/seeds/"
         }
     },
     "authors": [
