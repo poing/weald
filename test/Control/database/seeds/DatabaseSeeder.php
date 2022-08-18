@@ -2,7 +2,6 @@
 
 namespace Database\Seeders;
 
-use Illuminate\Database\Console\Seeds\WithoutModelEvents;
 use Illuminate\Database\Seeder;
 
 class GeneralSeeder extends Seeder
@@ -14,15 +13,14 @@ class GeneralSeeder extends Seeder
      */
     public function run()
     {
-		BaseLineAlphaSeeder::class;
+        BaseLineAlphaSeeder::class;
     }
 }
 
-
 // <?php
-// 
+//
 // use Illuminate\Database\Seeder;
-// 
+//
 // class DatabaseSeeder extends Seeder
 // {
 //     /**
