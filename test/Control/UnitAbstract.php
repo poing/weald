@@ -2,9 +2,8 @@
 
 namespace Weald\Test\Control;
 
-use Orchestra\Testbench\TestCase;
 use Database\Seeders\DatabaseSeeder;
-
+use Orchestra\Testbench\TestCase;
 
 class UnitAbstract extends TestCase
 {
