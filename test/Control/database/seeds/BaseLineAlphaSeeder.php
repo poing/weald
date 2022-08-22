@@ -17,22 +17,3 @@ class BaseLineAlphaSeeder extends Seeder
         BaseLineAlpha::factory()->count(50)->create();
     }
 }
-
-// <?php
-//
-// use Illuminate\Database\Seeder;
-//
-// class BaseLineAlpha extends Seeder
-// {
-//     /**
-//      * Run the database seeds.
-//      *
-//      * @return void
-//      */
-//     public function run()
-//     {
-//         BaseLineAlphafactory::count(50)->create();
-//     }
-// }
-//
-//
